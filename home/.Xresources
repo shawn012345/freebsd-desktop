@@ -1,0 +1,14 @@
+xterm*faceName:DejaVu Sans Mono
+xterm*faceNameDoublesize:WenQuanYi Micro Hei
+xterm*faceSize:9
+xterm*faceDovleSize:11
+XTerm*scrollBar: true
+XTerm*rightScrollBar: true
+XTerm*jumpScroll: true
+XTerm*SaveLines: 1000
+
+XTerm*VT100*translations: #override \n\
+Shift <KeyPress> Insert:insert-selection(CLIPBOARD, CUT_BUFFER1) \n\
+Ctrl <KeyPress> V: insert-selection(CLIPBOARD,CUT_BUFFER1) \n\
+Ctrl <KeyPress> P: print() \n\
+~Shift<BtnUp>: select-end(CLIPBOARD, CUT_BUFFER1) 
