@@ -1,12 +1,15 @@
+xterm*locale:en_US.UTF-8
 xterm*faceName:DejaVu Sans Mono
 xterm*faceNameDoublesize:WenQuanYi Micro Hei
 xterm*faceSize:9
 xterm*faceDovleSize:11
+xterm*utf8Title:true
+xterm*cjkWidth:true
 XTerm*scrollBar: true
 XTerm*rightScrollBar: true
 XTerm*jumpScroll: true
 XTerm*SaveLines: 1000
-
+XTerm*dynamicColors:true
 XTerm*VT100*translations: #override \n\
 Shift <KeyPress> Insert:insert-selection(CLIPBOARD, CUT_BUFFER1) \n\
 Ctrl <KeyPress> V: insert-selection(CLIPBOARD,CUT_BUFFER1) \n\
